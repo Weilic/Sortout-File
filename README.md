@@ -8,6 +8,7 @@
 ## 注意
 windows7后系统虽然自带powershell，但windows10的系统默认不执行powershell脚本。  
 如果要执行该脚本请在管理员权限下打开powershell并执行如下命令  
->`set-executionpolicy remotesigned`  
-然后在弹出的对话框中确认即可。
+>`set-executionpolicy remotesigned` 
+
+然后在弹出的对话框中确认即可。  
 **开启该选项有可能会让恶意脚本执行**
