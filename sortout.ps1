@@ -1,5 +1,5 @@
 ﻿#该脚本可以将当前目录下的文件以最后修改时间为依据分类整理
-#使用方法：将该脚本放在需要整理的目录下，鼠标右键“使用 PowerShell 运行” 即可
+#使用方法：将该脚本放在需要整理的目录下，鼠标右键“使用 PowerShell 运行” 即可 
 $CurrentScriptName= $MyInvocation.MyCommand.Name #获取当前脚本名字
 $FileDir=dir|Where-Object{$_.Name -ne $CurrentScriptName} #获取当前文件目录并删去脚本本身
 $CurrentCheckFile=0
